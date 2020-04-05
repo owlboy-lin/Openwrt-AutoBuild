@@ -1,0 +1,266 @@
+Package: ahcpd
+Version: 0.53-2
+Depends: libc, ip, librt
+License: MIT
+Section: net
+Architecture: x86_64
+Installed-Size: 22256
+Filename: ahcpd_0.53-2_x86_64.ipk
+Size: 23120
+SHA256sum: faaf336a8018f658659bfccb819f0e1c6aa83ca2b5121535f915bd764a476611
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
+Package: batctl-default
+Version: 2019.2-3
+Depends: libc, libnl-tiny, librt
+Provides: batctl
+Alternatives: 200:/usr/sbin/batctl:/usr/libexec/batctl-default
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 43650
+Filename: batctl-default_2019.2-3_x86_64.ipk
+Size: 44618
+SHA256sum: d036ccbc92fa3f7c5d567f6fa6840129561bc05b601090ed0bbbfa80291ca238
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2019.2 of the user space utility.
+ Standard subcommands for configuration and online debugging are enabled.
+
+Package: bird1-ipv4-uci
+Version: 0.3-1
+Depends: libc, bird1-ipv4, libuci, uci
+License: GPL-3.0+
+Section: net
+Architecture: x86_64
+Installed-Size: 6740
+Filename: bird1-ipv4-uci_0.3-1_x86_64.ipk
+Size: 7723
+SHA256sum: 8c2152d2bb8e66b20e985be9cd5a0e7d21d2f8ed1066be484341770dda367204
+Description:  bird1-ipv4 UCI integration module
+
+Package: bird1-ipv4
+Version: 1.6.6-1
+Depends: libc, libpthread
+Conflicts: bird4
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 221519
+Filename: bird1-ipv4_1.6.6-1_x86_64.ipk
+Size: 222796
+SHA256sum: 177d94adcbac09b000624f9458492d8c5774910ea79d44ee0f665a984688e5d7
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This packages the legacy v1.6 branch of Bird, which splits IPv4 and IPv6
+ support into separate binaries. See also the bird2 package for the newer
+ branch which integrates support for both IP protocols in a single binary.
+ 
+ This is IPv4 version of BIRD, it supports OSPFv2, RIPv2 and BGP
+ protocols.
+ 
+ In BGP, BIRD supports communities, multiprotocol extensions, MD5
+ authentication, 32bit AS numbers and could act as a route server or a
+ route reflector. BIRD also supports multiple RIBs, multiple kernel
+ routing tables and redistribution between the protocols with a powerful
+ configuration syntax.
+ 
+
+Package: bird1-ipv6-uci
+Version: 0.3-1
+Depends: libc, bird1-ipv6, libuci, uci
+License: GPL-3.0+
+Section: net
+Architecture: x86_64
+Installed-Size: 5904
+Filename: bird1-ipv6-uci_0.3-1_x86_64.ipk
+Size: 6819
+SHA256sum: a2189d14cf0ed3a0953ac95c014560731299f38cd658f424ce1a66a1d51ae00d
+Description:  bird1-ipv6 UCI integration module
+
+Package: bird1-ipv6
+Version: 1.6.6-1
+Depends: libc, libpthread
+Conflicts: bird6
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 249488
+Filename: bird1-ipv6_1.6.6-1_x86_64.ipk
+Size: 250720
+SHA256sum: 342b48bc6f5d2a49a9a34956ee5157e7b22593fcd1cf22a1797da43c6ca043be
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This packages the legacy v1.6 branch of Bird, which splits IPv4 and IPv6
+ support into separate binaries. See also the bird2 package for the newer
+ branch which integrates support for both IP protocols in a single binary.
+ 
+ This is IPv6 version of BIRD, it supports OSPFv3, RIPng and BGP
+ protocols.
+ 
+ In BGP, BIRD supports communities, multiprotocol extensions, MD5
+ authentication, 32bit AS numbers and could act as a route server or a
+ route reflector. BIRD also supports multiple RIBs, multiple kernel
+ routing tables and redistribution between the protocols with a powerful
+ configuration syntax.
+ 
+
+Package: bmx6
+Version: r2018020902-5
+Depends: libc, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 135569
+Filename: bmx6_r2018020902-5_x86_64.ipk
+Size: 136443
+SHA256sum: c2e1e170b6e4477648befbec85cb4e9b145bc6f855c0362cc0bbc797bdd236f9
+Description:  BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
+
+Package: bmx7-json
+Version: r2019030802-1
+Depends: libc, bmx7, libjson-c
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 7732
+Filename: bmx7-json_r2019030802-1_x86_64.ipk
+Size: 8494
+SHA256sum: f9d1b5627f750df93a8ed4e971e8f7cd8a43c76bb378aabb24f11566e2c1cd73
+Description:  json plugin based on json-c
+
+Package: bmx7
+Version: r2019030802-1
+Depends: libc, zlib, libmbedtls12, libiwinfo20200105
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 170049
+Filename: bmx7_r2019030802-1_x86_64.ipk
+Size: 171058
+SHA256sum: 1384b8e0941f676136bbccc67b9da5fc87f2e41c161a10b9e2ff7bebcb942b74
+Description:  BMX7 routing daemon supporting securely-entrusted IPv6 (and IPv4in6) routing
+
+Package: cjdns
+Version: 20.2-1
+Depends: libc, kmod-tun, libnl-tiny, libpthread, librt, libuci-lua, lua-bencode, dkjson, luasocket, lua-sha2
+License: GPL-3.0
+Section: net
+Architecture: x86_64
+Installed-Size: 360001
+Filename: cjdns_20.2-1_x86_64.ipk
+Size: 361069
+SHA256sum: 2a0db12c7c7ebe7c961f9b4678a55cbbfda99e550bdb455bac5f64bed13241ec
+Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
+
+Package: luci-app-bird1-ipv4
+Version: 0.3-1
+Depends: libc, bird1-ipv4-uci, luci-base
+License: GPL-3.0+
+Section: luci
+Architecture: x86_64
+Installed-Size: 7424
+Filename: luci-app-bird1-ipv4_0.3-1_x86_64.ipk
+Size: 8217
+SHA256sum: 6a1c129ee7cad7240ae435124ce223809cd46c4d924db1dafde0a3d63f9213cb
+Description:  bird4 application for LuCI
+
+Package: luci-app-bird1-ipv6
+Version: 0.3-1
+Depends: libc, bird1-ipv6-uci, luci-base
+License: GPL-3.0+
+Section: luci
+Architecture: x86_64
+Installed-Size: 7467
+Filename: luci-app-bird1-ipv6_0.3-1_x86_64.ipk
+Size: 8250
+SHA256sum: 2717970c5484dc6ba2f6c905893d82a12e7a6d559e0b637cf646cbfe64673db0
+Description:  bird6 application for LuCI
+
+Package: luci-app-bmx6
+Version: 6
+Depends: libc, luci-lib-json, luci-base, luci-lib-httpclient, bmx6, luci-lib-jquery-1-4, luci-lib-dracula
+License: GPL-2.0+
+Section: luci
+Architecture: x86_64
+Installed-Size: 30312
+Filename: luci-app-bmx6_6_x86_64.ipk
+Size: 31128
+SHA256sum: d4ff7cdc838a69d4712a18d7328bdcb4b20bb02b99b262d3a2e3e6a6ff22b1ed
+Description:  bmx6 web application (status and configuration) for LuCi web interface
+
+Package: luci-app-bmx7
+Version: 0.1-alpha
+Depends: libc, luci-lib-json, luci-mod-admin-full, bmx7, bmx7-json
+License: GPL-2.0+
+Section: luci
+Architecture: x86_64
+Installed-Size: 21811
+Filename: luci-app-bmx7_0.1-alpha_x86_64.ipk
+Size: 22670
+SHA256sum: 06ebb922561dd2e9b6bb9eb8ae749c5547964b253697cc4c64ac61c455e00511
+Description:  LuCI application for web-based configuration and visualization of the BMX7 routing daemon
+
+Package: luci-app-cjdns
+Version: 1.3-6
+Depends: libc, cjdns, luci-base
+License: GPL-3.0
+Section: luci
+Architecture: x86_64
+Installed-Size: 5372
+Filename: luci-app-cjdns_1.3-6_x86_64.ipk
+Size: 6306
+SHA256sum: c5b04d3f46a9845366ee17ece46cdc26fc9680b22d377912ae2f7b86831cf79a
+Description:  This package allows you to configure and inspect cjdns networking using LuCI.
+ 
+ Cjdns implements an encrypted IPv6 network using public-key cryptography
+ for address allocation and a distributed hash table for routing.
+ This provides near-zero-configuration networking, and prevents many
+ of the security and scalability issues that plague existing networks.
+
+Package: luci-app-hnet
+Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-2
+Depends: libc
+License: GPL-2.0
+Section: luci
+Architecture: x86_64
+Installed-Size: 56786
+Filename: luci-app-hnet_2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-2_x86_64.ipk
+Size: 57642
+SHA256sum: e8313c1c7bcb1b93b76a00fa352bb34ff4daa7e573be90a6cefdb1dc4a1f32d7
+Description:  HNCP Homenet configuration and visualization
+
+Package: luci-lib-dracula
+Version: 6
+Depends: libc
+License: GPL-2.0+
+Section: luci
+Architecture: x86_64
+Installed-Size: 23291
+Filename: luci-lib-dracula_6_x86_64.ipk
+Size: 23997
+SHA256sum: e240fed3e5fdac6608a94a3b6f8823a58aa72c311b08317965b1be5905dfa74b
+Description:  dracula graph javascript library
+
+Package: luci-lib-jquery-1-4
+Version: 6
+Depends: libc
+License: GPL-2.0+
+Section: luci
+Architecture: x86_64
+Installed-Size: 24828
+Filename: luci-lib-jquery-1-4_6_x86_64.ipk
+Size: 25552
+SHA256sum: 65b33e694a84158701a2dd7b22566f9758d665860715a859ad4508d366f9a3f1
+Description:  minified javascript jQuery 1.4 library
+
